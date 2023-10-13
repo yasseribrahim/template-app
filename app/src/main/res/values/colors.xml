@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#02C0D4</color>
+    <color name="colorPrimaryVariant">#4CBBCB</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <!-- Secondary brand color. -->
+    <color name="colorSecondary">#FFB400</color>
+    <color name="colorSecondaryVariant">@color/teal_700</color>
+    <color name="colorOnSecondary">@color/black</color>
+
+    <!-- other colors -->
+    <color name="orange">#FFB400</color>
+    <color name="blue">#FF6200EE</color>
+    <color name="shadow_color">#C1100e0e</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_dark">#FFa9a9a9</color>
+    <color name="background">#FFf9fafb</color>
+    <color name="gray">#FFc6c6c6</color>
+    <color name="red">#FFBE0000</color>
+    <color name="green">#4E9F3D</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="border_color">#e2e2e2</color>
+    <color name="black_light">#484848</color>
+    <color name="refreshColor4">#019DCD</color>
+    <color name="refreshColor3">#8CAD4A</color>
+    <color name="refreshColor2">#F47224</color>
+    <color name="refreshColor1">#94257F</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="item_chat_bg">@color/colorPrimary</color>
+    <color name="item_chat_other_bg">#e1e1e1</color>
+
+    <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
+</resources>

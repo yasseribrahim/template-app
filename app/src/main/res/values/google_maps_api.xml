@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_maps_key" translatable="false">AIzaSyCk6w7SzaeBDbVYWkeYxc-s7h6x6UShtxw</string>
+    <string name="default_notification_channel_id" translatable="false">default_notification_channel_id</string>
+</resources>

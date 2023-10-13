@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ToolBarShadowStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">@color/shadow_color</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">10</item>
+    </style>
+
+    <style name="CustomActionBar" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="CustomButtonGreenOutline" parent="CustomButton">
+        <item name="android:background">@drawable/btn_green_outline_background</item>
+    </style>
+
+    <style name="AppTheme.ColoredStatusBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionMenuTextAppearance">@style/CustomActionBar</item>
+    </style>
+
+    <style name="CustomButtonPrimary" parent="CustomButton">
+        <item name="android:background">@drawable/btn_primary_background</item>
+    </style>
+
+    <style name="CustomButtonOrange" parent="CustomButton">
+        <item name="android:background">@drawable/btn_orange_background</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TransparentText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#00000000</item>
+    </style>
+
+    <style name="viewParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ProfileDetailsLayout" parent="parent">
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="ProfileDetailsImage">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="ProfileDetailsTextMain" parent="viewParent">
+        <item name="android:textColor">@color/blackTextColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="ProfileDetailsMiniText" parent="viewParent">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textColor">@color/blackTextColor</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="ProfileDetailsView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/profileAccentColor</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="ProfileStyledBackButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/profile_back_button</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">30dp</item>
+        <item name="android:paddingEnd">50dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:drawableStart">@drawable/back_to_home_button</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:minWidth">250dp</item>
+    </style>
+
+    <style name="FullScreenTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorSecondaryVariant</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="CustomButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="CustomButtonAccent" parent="CustomButton">
+        <item name="android:background">@drawable/btn_accent_background</item>
+    </style>
+
+    <style name="CustomButtonPrimaryOutline" parent="CustomButton">
+        <item name="android:background">@drawable/btn_white_background</item>
+    </style>
+    <style name="CardInfoLayoutContainerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:background">@drawable/rounded_white</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingStart">50dp</item>
+        <item name="android:paddingEnd">8dp</item>
+    </style>
+
+    <style name="CardInfoPhotoStyle">
+        <item name="android:layout_width">65dp</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:src">@drawable/ic_profile</item>
+    </style>
+
+    <style name="CardInfoNameStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lines">1</item>
+        <item name="android:textColor">@color/black_light</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="CardInfoDescriptionStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lines">1</item>
+        <item name="android:textColor">@color/gray_dark</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="SearchStyle">
+        <item name="android:lines">1</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="SeparateHorizontalView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/border_color</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="SeparateVerticalView">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/border_color</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="MoreTextTitle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <style name="headerText" parent="parent">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/blackTextColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textInputHintStyle" parent="TextAppearance.AppCompat.Medium.Inverse">
+        <item name="android:textColorHint">@color/blackTextColor</item>
+        <item name="android:textColor">@color/blackTextColor</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1080347201744",
+    "project_id": "getit-app-75e0e",
+    "storage_bucket": "getit-app-75e0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080347201744:android:77bb90f50a74bf040eced5",
+        "android_client_info": {
+          "package_name": "com.getit.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnXOq1tIYQ7LylSGmO6x3XjCKigGMjsl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
